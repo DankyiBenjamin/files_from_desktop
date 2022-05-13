@@ -1,10 +1,16 @@
-x =0
-then = "just trying something out"
+x = int(input("please type in a value for assesment "))
+# x = int(y)
+m = type(x)
+print(m)
+ben = "just trying something out"
+print(type(ben))
 
-class MyPoint:
+class MyPoint():
     def draw(self):
         if x == 0 :
-            print(then)
+            print(ben)
+        else:
+            print("you inputted a number ")
 
 
-MyPoint.draw()
+MyPoint.draw(x)
